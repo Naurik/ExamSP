@@ -1,0 +1,28 @@
+﻿<Window x:Class="ExamSP.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ExamSP"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button Name="buttonTask1" Content="Задача 1" Margin="44,42,630,345" Click="ButtonClickTaskOne" Focusable="True"></Button>
+        <Button Name="buttonTask2" Content="Задача 2" Margin="620,42,54,345" Click="ButtonClickTaskTwo" Focusable="True"></Button>
+        <TextBlock Name="textBlockNumber" Visibility="Collapsed" Text="Введите число(положительное и не ноль)" Margin="44,83,0,311" HorizontalAlignment="Left" Width="242"></TextBlock>
+        <TextBox Name="textBoxNumber" Visibility="Collapsed"  HorizontalAlignment="Left" Height="23" Margin="44,108,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="136"/>
+        <TextBlock Name ="textBlockName" Visibility="Collapsed" Text="Введите имя" Margin="581,15,54,0" Height="22" VerticalAlignment="Top"></TextBlock>
+        <TextBox Name="textBoxName" Visibility="Collapsed" HorizontalAlignment="Left" Height="23" Margin="577,42,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="161"/>
+        <TextBox Name="textBoxSurname" Visibility="Collapsed" HorizontalAlignment="Left" Height="23" Margin="577,96,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="161"/>
+        <TextBox Name="textBoxAge" Visibility="Collapsed" HorizontalAlignment="Left" Height="23" Margin="577,152,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="161"/>
+        <TextBox Name="textBoxBirthCountry" Visibility="Collapsed" HorizontalAlignment="Left" Height="23" Margin="577,202,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="161"/>
+        <Button  Name="buttonGenerated" Visibility="Collapsed" Content="Генерировать" Margin="95,152,612,0" Click="ButtonClickGenerated" Height="23" VerticalAlignment="Top"/>
+        <TextBox Name="textBoxPhoneNumber" Visibility="Collapsed" HorizontalAlignment="Left" Height="23" Margin="577,258,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="161"/>
+        <TextBlock Name="textBlockSurname" Visibility="Collapsed" Text="Введите фамилию" Margin="581,74,54,0" Height="22" VerticalAlignment="Top"/>
+        <TextBlock Name="textBlockAge" Visibility="Collapsed" Text="Введите возраст" Margin="581,130,54,0" Height="22" VerticalAlignment="Top"/>
+        <TextBlock Name="textBlockBirthCountry" Visibility="Collapsed" Text="Введите страну" Margin="581,180,54,0" Height="22" VerticalAlignment="Top"/>
+        <TextBlock Name="textBlockPhoneNumber" Visibility="Collapsed" Text="Введите номер" Margin="581,236,54,0" Height="22" VerticalAlignment="Top"/>
+        <ListView Name="listArray" Visibility="Collapsed" Margin="44,236,671,0" Height="173" VerticalAlignment="Top"></ListView>
+        <Button Name="buttonSave" Content="Сохранить" Visibility="Collapsed" Margin="653,299,54,0" Click="ButtonClickSave" Height="23" VerticalAlignment="Top"/>
+    </Grid>
+</Window>

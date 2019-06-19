@@ -1,0 +1,13 @@
+c:\Users\машимовн.corp\source\repos\ExamSP\PersonsCharacter\bin\Debug\PersonsCharacter.dll.config
+c:\Users\машимовн.corp\source\repos\ExamSP\PersonsCharacter\bin\Debug\PersonsCharacter.dll
+c:\Users\машимовн.corp\source\repos\ExamSP\PersonsCharacter\bin\Debug\PersonsCharacter.pdb
+c:\Users\машимовн.corp\source\repos\ExamSP\PersonsCharacter\bin\Debug\EntityFramework.dll
+c:\Users\машимовн.corp\source\repos\ExamSP\PersonsCharacter\bin\Debug\EntityFramework.SqlServer.dll
+c:\Users\машимовн.corp\source\repos\ExamSP\PersonsCharacter\bin\Debug\EntityFramework.xml
+c:\Users\машимовн.corp\source\repos\ExamSP\PersonsCharacter\bin\Debug\EntityFramework.SqlServer.xml
+c:\Users\машимовн.corp\source\repos\ExamSP\PersonsCharacter\bin\Debug\ru\EntityFramework.resources.dll
+c:\Users\машимовн.corp\source\repos\ExamSP\PersonsCharacter\obj\Debug\PersonsCharacter.csprojAssemblyReference.cache
+c:\Users\машимовн.corp\source\repos\ExamSP\PersonsCharacter\obj\Debug\PersonsCharacter.csproj.CoreCompileInputs.cache
+c:\Users\машимовн.corp\source\repos\ExamSP\PersonsCharacter\obj\Debug\PersonsCharacter.csproj.CopyComplete
+c:\Users\машимовн.corp\source\repos\ExamSP\PersonsCharacter\obj\Debug\PersonsCharacter.dll
+c:\Users\машимовн.corp\source\repos\ExamSP\PersonsCharacter\obj\Debug\PersonsCharacter.pdb
